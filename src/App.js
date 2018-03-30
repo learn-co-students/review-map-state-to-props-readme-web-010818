@@ -34,8 +34,7 @@ class App extends Component {
 }
 
 const mapStateToProps = (state) => {
-  debugger;
-  return { items: state.items }
+  return { items: state.items, users: state.users }
 }
 
 export default connect(mapStateToProps)(App);
